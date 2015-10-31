@@ -16,6 +16,11 @@ class EntriesController < ApplicationController
 		render json: @entries
 	end
 
+	def show
+		@entry = Entry.find(params[:id])
+		render json: @entry
+	end
+
 	private
 
 	def entry_params
