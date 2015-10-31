@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # File upload/storage
 gem 'paperclip', "~> 4.3"
+gem 'fog', "~> 1.34.0"
 
 
 group :development, :test do
